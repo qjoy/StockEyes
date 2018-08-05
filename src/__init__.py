@@ -1,7 +1,7 @@
 import cv2
-import numpy as np
-import matplotlib
-import numpy
+# import numpy as np
+# import matplotlib
+# import numpy
 
 img = cv2.imread("/Users/alex_xq/PycharmProjects/OpenCVTest/src/asset/src601901.png")
 # hsv = cv2.cvtColor("/Users/alex_xq/PycharmProjects/OpenCVTest/src/asset/xueqiu.png", cv2.COLOR_BGR2HSV)
@@ -11,6 +11,7 @@ img = cv2.imread("/Users/alex_xq/PycharmProjects/OpenCVTest/src/asset/src601901.
 
 cv2.imshow("Image", img)
 
+cv2.waitKey()
 
-cv2.waitKey(0)
 cv2.destroyAllWindows()
+
